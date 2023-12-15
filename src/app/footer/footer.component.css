@@ -78,6 +78,12 @@
   .footer-bottom-data:hover {
     color: hsl(171, 66%, 44%);
   }
+  .social-icon {
+    cursor: pointer;
+  }
+  .social-icon:hover {
+    filter: saturate(25) hue-rotate(310deg);
+  }
 }
 @media (max-width: 678px) {
   .footer-top-container {
