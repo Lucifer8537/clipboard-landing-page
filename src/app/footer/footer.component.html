@@ -1,0 +1,37 @@
+<div class="footer-container">
+  <div class="footer-top-container gap-v">
+    <div class="footer-top-title">Clipboard for iOS and Mac OS</div>
+    <div class="footer-top-context">
+      Available for free on the App Store. Download for Mac or iOS, sync with
+      iCloud and you're ready to start adding to your clipboard
+    </div>
+    <div class="button-container">
+      <button class="ios btn">Download for IOS</button>
+      <button class="mac btn">Download for Mac</button>
+    </div>
+  </div>
+  <div class="footer-bottom-container gap-v">
+    <img src="../../assets/logo.svg" alt="logo" class="logo" />
+    <div class="footer-bottom-data-container">
+      <ng-container *ngIf="!mobileView"
+        ><div class="footer-bottom-data">FAQs</div>
+        <div class="footer-bottom-data">Privacy Policy</div>
+        <div class="footer-bottom-data">Install Guide</div>
+        <div class="footer-bottom-data">Contact Us</div>
+        <div class="footer-bottom-data">Press Kit</div>
+      </ng-container>
+      <ng-container *ngIf="mobileView"
+        ><div class="footer-bottom-data">FAQs</div>
+        <div class="footer-bottom-data">Contact Us</div>
+        <div class="footer-bottom-data">Privacy Policy</div>
+        <div class="footer-bottom-data">Press Kit</div>
+        <div class="footer-bottom-data">Install Guide</div>
+      </ng-container>
+    </div>
+    <div class="footer-bottom-icon-container">
+      <img src="../../assets/icon-facebook.svg" alt="icon-facebook" />
+      <img src="../../assets/icon-twitter.svg" alt="icon-twitter" />
+      <img src="../../assets/icon-instagram.svg" alt="icon-instagram" />
+    </div>
+  </div>
+</div>

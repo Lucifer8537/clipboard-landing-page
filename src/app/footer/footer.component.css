@@ -1,0 +1,130 @@
+.footer-container {
+}
+.footer-top-container {
+  display: grid;
+  justify-items: center;
+  margin: 10% 27%;
+}
+
+.footer-top-title {
+  font-family: "BaiJamjuree-Bold";
+  color: hsl(210, 10%, 33%);
+  margin-top: 10%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.footer-top-context {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  margin-top: 3%;
+  font-size: 18px;
+}
+.button-container {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+  justify-content: center;
+  margin: 7% 0%;
+}
+.btn {
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 0;
+  font-family: "BaiJamjuree";
+  color: white;
+  cursor: pointer;
+}
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+.footer-bottom-container {
+  background-color: rgb(245, 246, 248);
+  display: flex;
+  padding: 3% 10% 1% 10%;
+  align-items: center;
+}
+.footer-bottom-data-container {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 15px 80px;
+  color: hsl(210, 10%, 33%);
+  font-family: "BaiJamjuree";
+  font-size: 17px;
+}
+.footer-bottom-data {
+}
+.footer-bottom-icon-container {
+  gap: 0% 35%;
+  display: flex;
+  margin-left: auto;
+}
+@media (min-width: 679px) {
+  .btn:hover {
+    opacity: 0.7;
+  }
+
+  .logo {
+    width: 50px;
+    margin-right: 10%;
+  }
+  .footer-bottom-data {
+    cursor: pointer;
+  }
+  .footer-bottom-data:hover {
+    color: hsl(171, 66%, 44%);
+  }
+}
+@media (max-width: 678px) {
+  .footer-top-container {
+    margin: 20% 0%;
+  }
+  .footer-top-title {
+    font-size: 180%;
+  }
+  .footer-top-context {
+    font-size: 120%;
+  }
+  .button-container {
+    display: block;
+    margin: 15% 0%;
+  }
+  .btn {
+    width: -webkit-fill-available;
+  }
+  .ios {
+    margin-bottom: 5%;
+  }
+  .gap-v {
+    padding: 0% 5%;
+  }
+  .footer-bottom-container {
+    background-color: rgb(245, 246, 248);
+    display: grid;
+    padding: 10% 5% !important;
+    justify-items: center;
+  }
+  .logo {
+    width: 15%;
+  }
+  .footer-bottom-data-container {
+    display: grid;
+    margin-top: 12%;
+    text-align: center;
+    gap: 20px;
+    color: hsl(210, 10%, 33%);
+    font-family: "BaiJamjuree";
+    font-size: 130%;
+    grid-template-columns: unset;
+  }
+  .footer-bottom-icon-container {
+    gap: 40px;
+    display: flex;
+    margin-top: 15%;
+    margin-left: unset;
+  }
+}
